@@ -1,0 +1,48 @@
+{
+  "name": "slidev-theme-touraine-tech",
+  "version": "1.0.0",
+  "description": "Theme Slidev officiel pour Touraine Tech",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "touraine-tech",
+    "conference",
+    "presentation"
+  ],
+  "author": "Touraine Tech <team@touraine.tech>",
+  "license": "MIT",
+  "homepage": "https://touraine.tech",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tourainetech/slidev-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tourainetech/slidev-theme/issues"
+  },
+  "engines": {
+    "slidev": ">=0.47.0"
+  },
+  "files": [
+    "components",
+    "layouts",
+    "styles",
+    "public"
+  ],
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Noto Sans",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.50.0"
+  },
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md"
+  }
+}

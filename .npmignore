@@ -1,0 +1,22 @@
+# Dev files
+node_modules/
+example.md
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+.slidev/
+
+# Lock files (users will use their own)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
