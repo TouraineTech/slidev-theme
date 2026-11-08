@@ -4,6 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- The `@tourainetech` link in the `end` layout points to x.com.
+- GitHub release notes come from this changelog.
+
 ## [1.1.0] - 2026-11-08
 
 ### Changed
