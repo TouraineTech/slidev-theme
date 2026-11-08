@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-touraine-tech",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Theme Slidev officiel pour Touraine Tech",
   "keywords": [
     "slidev-theme",
@@ -14,10 +14,10 @@
   "homepage": "https://touraine.tech",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tourainetech/slidev-theme.git"
+    "url": "git+https://github.com/TouraineTech/slidev-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/tourainetech/slidev-theme/issues"
+    "url": "https://github.com/TouraineTech/slidev-theme/issues"
   },
   "engines": {
     "slidev": ">=0.47.0"
