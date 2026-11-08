@@ -174,7 +174,7 @@ pnpm dev
 
 ### Releasing
 
-Record every change under `[Unreleased]` in the [CHANGELOG](./CHANGELOG.md). To release, open a PR that bumps `version` in `package.json` and renames the `[Unreleased]` section to that version: on merge, CI publishes to npm and creates the GitHub release. A PR without a version bump publishes nothing.
+Record every change under `[Unreleased]` in the [CHANGELOG](./CHANGELOG.md). To release, open a PR that bumps `version` in `package.json` and renames the `[Unreleased]` section to that version: on merge, CI publishes to npm and creates the GitHub release with that changelog entry as notes. A PR without a version bump publishes nothing.
 
 ## License
 
