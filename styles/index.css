@@ -94,10 +94,6 @@ html.dark h6 {
   color: var(--tnt-white);
 }
 
-html.dark code {
-  background: var(--tnt-light-gray);
-}
-
 /* Lists styling */
 ul, ol {
   padding-left: 1.5em;
