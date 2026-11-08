@@ -165,7 +165,7 @@ Logo Touraine Tech reutilisable.
 # Cloner le repo
 git clone https://github.com/tourainetech/slidev-theme
 
-# Installer les dependances
+# Installer les dependances (Node.js >= 22.22)
 pnpm install
 
 # Lancer le serveur de dev
