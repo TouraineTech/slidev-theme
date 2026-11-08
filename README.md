@@ -1,6 +1,6 @@
 # Slidev Theme Touraine Tech
 
-Theme officiel [Slidev](https://sli.dev) pour les presentations Touraine Tech.
+Official [Slidev](https://sli.dev) theme for Touraine Tech presentations.
 
 ## Installation
 
@@ -10,7 +10,7 @@ pnpm add slidev-theme-touraine-tech
 
 ## Usage
 
-Dans le frontmatter de votre presentation :
+In your presentation's frontmatter:
 
 ```yaml
 ---
@@ -18,7 +18,7 @@ theme: touraine-tech
 ---
 ```
 
-### Usage local (developpement)
+### Local usage (development)
 
 ```yaml
 ---
@@ -30,33 +30,33 @@ theme: ./path/to/themes/slidev
 
 ### `cover`
 
-Page de titre de la presentation.
+Title slide of the presentation.
 
 ```yaml
 ---
 layout: cover
-variant: dark  # ou 'light'
+variant: dark  # or 'light'
 ---
 
-# Titre de ma presentation
+# My presentation title
 
-Nom du speaker
+Speaker name
 ```
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `variant` | `'dark'` \| `'light'` | `'dark'` | Style du fond |
+| `variant` | `'dark'` \| `'light'` | `'dark'` | Background style |
 
 ### `default`
 
-Layout standard pour le contenu.
+Standard content layout.
 
 ```yaml
 ---
 layout: default
 ---
 
-# Mon titre
+# My title
 
 - Point 1
 - Point 2
@@ -64,67 +64,67 @@ layout: default
 
 ### `section`
 
-Transition entre sections.
+Transition between sections.
 
 ```yaml
 ---
 layout: section
-variant: dark  # ou 'light'
+variant: dark  # or 'light'
 ---
 
-# Nouvelle section
+# New section
 
-Sous-titre optionnel
+Optional subtitle
 ```
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `variant` | `'dark'` \| `'light'` | `'dark'` | Style du fond |
+| `variant` | `'dark'` \| `'light'` | `'dark'` | Background style |
 
 ### `two-cols`
 
-Contenu sur deux colonnes.
+Two-column content.
 
 ```yaml
 ---
 layout: two-cols
 ---
 
-# Colonne gauche
+# Left column
 
-Contenu a gauche
+Left content
 
 ::right::
 
-# Colonne droite
+# Right column
 
-Contenu a droite
+Right content
 ```
 
 ### `end`
 
-Page de fin / remerciements.
+Closing / thank-you slide.
 
 ```yaml
 ---
 layout: end
-variant: dark  # ou 'light'
+variant: dark  # or 'light'
 ---
 
-# Merci !
+# Thank you!
 
-Des questions ?
+Any questions?
 ```
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `variant` | `'dark'` \| `'light'` | `'dark'` | Style du fond |
+| `variant` | `'dark'` \| `'light'` | `'dark'` | Background style |
 
-## Composants
+## Components
 
 ### `<TntLogo>`
 
-Logo Touraine Tech reutilisable.
+Reusable Touraine Tech logo.
 
 ```vue
 <TntLogo size="md" />
@@ -133,44 +133,48 @@ Logo Touraine Tech reutilisable.
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `size` | `'sm'` \| `'md'` \| `'lg'` \| `'xl'` | `'md'` | Taille du logo |
-| `inverted` | `boolean` | `false` | Logo blanc (pour fonds sombres) |
+| `size` | `'sm'` \| `'md'` \| `'lg'` \| `'xl'` | `'md'` | Logo size |
+| `inverted` | `boolean` | `false` | White logo (for dark backgrounds) |
 
-## Couleurs
+## Colors
 
-| Variable | Valeur | Usage |
-|----------|--------|-------|
-| `--tnt-primary` | `#222333` | Fond sombre, texte sur fond clair |
-| `--tnt-secondary` | `#6ABFAD` | Accents, liens, decorations |
-| `--tnt-white` | `#ffffff` | Fond clair, texte sur fond sombre |
+| Variable | Value | Usage |
+|----------|-------|-------|
+| `--tnt-primary` | `#222333` | Dark background, text on light background |
+| `--tnt-secondary` | `#6ABFAD` | Accents, links, decorations |
+| `--tnt-white` | `#ffffff` | Light background, text on dark background |
 
-### Classes utilitaires
+### Utility classes
 
 ```html
-<div class="bg-tnt-primary">Fond sombre</div>
-<div class="bg-tnt-secondary">Fond turquoise</div>
-<div class="text-tnt-primary">Texte sombre</div>
-<div class="text-tnt-secondary">Texte turquoise</div>
-<div class="text-tnt-white">Texte blanc</div>
+<div class="bg-tnt-primary">Dark background</div>
+<div class="bg-tnt-secondary">Teal background</div>
+<div class="text-tnt-primary">Dark text</div>
+<div class="text-tnt-secondary">Teal text</div>
+<div class="text-tnt-white">White text</div>
 ```
 
-## Typographie
+## Typography
 
-- **Police** : Noto Sans (Google Fonts)
-- **Code** : Fira Code
+- **Font**: Noto Sans (Google Fonts)
+- **Code**: Fira Code
 
-## Developpement
+## Development
 
 ```bash
-# Cloner le repo
-git clone https://github.com/tourainetech/slidev-theme
+# Clone the repo
+git clone https://github.com/TouraineTech/slidev-theme
 
-# Installer les dependances (Node.js >= 22.22)
+# Install dependencies (Node.js >= 22.22)
 pnpm install
 
-# Lancer le serveur de dev
+# Start the dev server
 pnpm dev
 ```
+
+### Releasing
+
+Record every change under `[Unreleased]` in the [CHANGELOG](./CHANGELOG.md). To release, open a PR that bumps `version` in `package.json` and renames the `[Unreleased]` section to that version: on merge, CI publishes to npm and creates the GitHub release. A PR without a version bump publishes nothing.
 
 ## License
 
