@@ -172,6 +172,10 @@ pnpm install
 pnpm dev
 ```
 
+### Publier une version
+
+Notez chaque changement sous `[Non publié]` dans le [CHANGELOG](./CHANGELOG.md). Pour publier, ouvrez une PR qui bumpe `version` dans `package.json` et renomme la section `[Non publié]` avec ce numéro : au merge, la CI publie sur npm et crée la release GitHub. Une PR sans bump ne publie rien.
+
 ## License
 
 MIT
