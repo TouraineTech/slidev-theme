@@ -24,7 +24,7 @@ const isDark = computed(() => props.variant !== 'light')
     <div class="end-links">
       <a href="https://touraine.tech" target="_blank" rel="noopener">touraine.tech</a>
       <span class="separator">|</span>
-      <a href="https://twitter.com/tourainetech" target="_blank" rel="noopener">@tourainetech</a>
+      <a href="https://x.com/tourainetech" target="_blank" rel="noopener">@tourainetech</a>
     </div>
     <div class="end-decoration">
       <div class="triangle triangle-1"></div>
