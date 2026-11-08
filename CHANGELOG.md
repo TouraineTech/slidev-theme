@@ -1,34 +1,34 @@
 # Changelog
 
-Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions selon [SemVer](https://semver.org/lang/fr/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [Non publié]
+## [Unreleased]
 
 ## [1.1.0] - 2026-11-08
 
-### Modifié
+### Changed
 
-- Compatible Slidev 53 (Node.js >= 22.22 pour développer le thème).
-- Le thème force le mode sombre : tous les layouts de contenu ont un fond sombre. Les variantes `variant: light` de `cover`, `section` et `end` restent disponibles.
-- Le layout `end` affiche le compte `@tourainetech`, celui du site touraine.tech.
+- Compatible with Slidev 53 (developing the theme requires Node.js >= 22.22).
+- The theme forces dark mode, since every content layout has a dark background. The `variant: light` option of `cover`, `section` and `end` is still available.
+- The `end` layout shows the `@tourainetech` handle, the one linked from touraine.tech.
 
-### Corrigé
+### Fixed
 
-- Citations et blocs de code lisibles sur fond sombre.
-- `pnpm export` fonctionne (ajout de `playwright-chromium`).
+- Quotes and code blocks are readable on dark backgrounds.
+- `pnpm export` works (adds `playwright-chromium`).
 
-### Ajouté
+### Added
 
-- Publication npm automatique, avec provenance, à chaque nouvelle version sur `main`.
+- Automatic npm publishing, with provenance, for every new version on `main`.
 
 ## [1.0.0] - 2025-12-20
 
-### Ajouté
+### Added
 
-- Layouts `cover`, `default`, `section`, `two-cols` et `end`, avec variantes `dark` et `light` pour `cover`, `section` et `end`.
-- Composant `<TntLogo>`.
-- Couleurs Touraine Tech, polices Noto Sans et Fira Code.
+- `cover`, `default`, `section`, `two-cols` and `end` layouts, with `dark` and `light` variants for `cover`, `section` and `end`.
+- `<TntLogo>` component.
+- Touraine Tech colors, Noto Sans and Fira Code fonts.
 
-[Non publié]: https://github.com/TouraineTech/slidev-theme/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/TouraineTech/slidev-theme/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/TouraineTech/slidev-theme/compare/44d15d3...v1.1.0
 [1.0.0]: https://github.com/TouraineTech/slidev-theme/commit/44d15d3
