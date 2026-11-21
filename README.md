@@ -5,7 +5,7 @@ Official [Slidev](https://sli.dev) theme for Touraine Tech presentations.
 ## Installation
 
 ```bash
-pnpm add slidev-theme-touraine-tech
+pnpm add @touraine-tech/slidev-theme
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ In your presentation's frontmatter:
 
 ```yaml
 ---
-theme: touraine-tech
+theme: '@touraine-tech/slidev-theme'
 ---
 ```
 

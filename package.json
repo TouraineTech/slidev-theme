@@ -1,6 +1,6 @@
 {
-  "name": "slidev-theme-touraine-tech",
-  "version": "1.1.0",
+  "name": "@touraine-tech/slidev-theme",
+  "version": "2.0.0",
   "description": "Official Slidev theme for Touraine Tech",
   "keywords": [
     "slidev-theme",
@@ -45,5 +45,8 @@
     "dev": "slidev example.md",
     "build": "slidev build example.md",
     "export": "slidev export example.md"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

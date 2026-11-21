@@ -4,8 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-11-21
+
 ### Changed
 
+- Published as `@touraine-tech/slidev-theme`, with Touraine Tech's other packages: install it under that name and set `theme: '@touraine-tech/slidev-theme'`. `slidev-theme-touraine-tech` gets no new version.
 - The `@tourainetech` link in the `end` layout points to x.com.
 - GitHub release notes come from this changelog.
 
@@ -34,6 +37,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `<TntLogo>` component.
 - Touraine Tech colors, Noto Sans and Fira Code fonts.
 
-[Unreleased]: https://github.com/TouraineTech/slidev-theme/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/TouraineTech/slidev-theme/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/TouraineTech/slidev-theme/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/TouraineTech/slidev-theme/compare/44d15d3...v1.1.0
 [1.0.0]: https://github.com/TouraineTech/slidev-theme/commit/44d15d3
