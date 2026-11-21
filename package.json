@@ -1,6 +1,6 @@
 {
   "name": "@touraine-tech/slidev-theme",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Official Slidev theme for Touraine Tech",
   "keywords": [
     "slidev-theme",
@@ -10,7 +10,7 @@
     "presentation"
   ],
   "author": "Touraine Tech <team@touraine.tech>",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://touraine.tech",
   "repository": {
     "type": "git",
